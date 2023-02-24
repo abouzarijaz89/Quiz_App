@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@400;600&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family:"Montserrat" , "Poppins", "sans-serif";
+    min-height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quiz-container{
+background-color: white;
+border-radius: 10px;
+box-shadow: 0 0 10px 5px rgba(100, 100, 100, 0.1);
+width: 600px;
+max-width: 100%;
+overflow: hidden;
+}
+.quiz-header{
+ padding: 4rem;   
+}
+h2{
+    margin: 0;
+    font-weight: bold;
+    padding: 1rem;
+}
+h3{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+ul li label {
+    cursor: pointer;
+}
+button{
+    background-color: #202c61;
+    border: none;
+    color: white;
+    display: block;
+    font-family: inherit;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 1.3rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #29397d;
+}
+button:focus{
+    background-color: #29397d;
+    outline: none;
+}
